@@ -108,6 +108,7 @@ jobs:
                cmake \
                curl \
                gcc \
+               lvm \
                git \
                g++ \
                libpam0g-dev \
