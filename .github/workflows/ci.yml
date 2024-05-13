@@ -98,10 +98,11 @@ jobs:
       run: |
         case ${{ matrix.job.target }} in
           x86_64-unknown-linux-gnu)
-            sudo add-apt-repository -y --noupdate http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
-            sudo add-apt-repository -y --noupdate http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
-            sudo add-apt-repository -y --noupdate http://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+            sudo add-apt-repository -y http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+            sudo add-apt-repository -y  http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
+            sudo add-apt-repository -y http://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
             sudo add-apt-repository -y http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+            sudo apt update
             sudo apt-get install -y \
                clang \
                cmake \
