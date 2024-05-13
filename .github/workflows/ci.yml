@@ -108,7 +108,7 @@ jobs:
                cmake \
                curl \
                gcc \
-               llvm \
+               libunwind-dev \
                git \
                g++ \
                libpam0g-dev \
