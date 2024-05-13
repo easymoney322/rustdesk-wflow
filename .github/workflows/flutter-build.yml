@@ -789,6 +789,7 @@ jobs:
                libgtk-3-dev \
                libpam0g-dev \
                libpulse-dev \
+               libunwind-dev \
                libva-dev \
                libvdpau-dev \
                libxcb-randr0-dev \
@@ -796,7 +797,6 @@ jobs:
                libxcb-xfixes0-dev \
                libxdo-dev \
                libxfixes-dev \
-               llvm-dev \
                llvm-dev \
                nasm \
                ninja-build \
@@ -1079,6 +1079,7 @@ jobs:
                libgtk-3-dev \
                libpam0g-dev \
                libpulse-dev \
+               libunwind-dev \
                libva-dev \
                libvdpau-dev \
                libxcb-randr0-dev \
@@ -1086,7 +1087,6 @@ jobs:
                libxcb-xfixes0-dev \
                libxdo-dev \
                libxfixes-dev \
-               llvm-dev \
                llvm-dev \
                nasm \
                ninja-build \
@@ -1357,6 +1357,7 @@ jobs:
                liblzma-dev \
                libpam0g-dev \
                libpulse-dev \
+               libunwind-dev \
                libva-dev \
                libvdpau-dev \
                libxcb-randr0-dev \
