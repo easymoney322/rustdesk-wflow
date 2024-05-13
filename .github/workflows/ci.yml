@@ -136,7 +136,7 @@ jobs:
       shell: bash
 
     - name: Install Rust toolchain
-      uses: dtolnay/rust-toolchain@v1.52.1
+      uses: dtolnay/rust-toolchain@v1
       with:
         toolchain: stable
         targets: ${{ matrix.job.target }}
